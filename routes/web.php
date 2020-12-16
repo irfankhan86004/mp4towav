@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('mp4towav', 'AdminSettingsController@mp4towav');
